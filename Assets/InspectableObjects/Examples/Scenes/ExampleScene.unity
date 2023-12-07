@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3355ba667ed3d488c6ba3fa9d6fe8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 1.5
   turnSpeed: 1.5
   _rb: {fileID: 494558764}
 --- !u!54 &494558764
@@ -1004,8 +1004,8 @@ MonoBehaviour:
   _rotation: {x: 45, y: 45, z: 0}
   _itemName: A Cube
   _itemDescription: Your standard duty cube.
-  _itemNameTextView: {fileID: 0}
-  _itemDescriptionTextView: {fileID: 0}
+  _itemNameTextView: {fileID: 2097914589166318629}
+  _itemDescriptionTextView: {fileID: 5339242157204681676}
 --- !u!65 &1697453652
 BoxCollider:
   m_ObjectHideFlags: 0
