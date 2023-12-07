@@ -8,17 +8,11 @@ public class TestPlayerController : MonoBehaviour
     public float moveSpeed = 1f;
     public float turnSpeed = 1.5f;
     public Rigidbody _rb;
-    public GameObject take;
     // Update is called once per frame
     void FixedUpdate()
     {
         MovePlayer();
-        TurnPlayer();
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            take.GetComponent<Inspection>().TakeObject();
-        }       
+        TurnPlayer();     
     }
 
     void MovePlayer()
