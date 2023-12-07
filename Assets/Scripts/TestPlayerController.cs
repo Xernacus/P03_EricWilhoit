@@ -18,7 +18,7 @@ public class TestPlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             take.GetComponent<Inspection>().TakeObject();
-        }
+        }       
     }
 
     void MovePlayer()
